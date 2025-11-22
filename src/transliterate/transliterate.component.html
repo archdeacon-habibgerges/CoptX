@@ -1,0 +1,25 @@
+<h1>Coptic Arabic Transliteration</h1>
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+    <mat-label>Coptic Text</mat-label>
+    <textarea
+      rows="10"
+      matInput
+      [(ngModel)]="copticText"
+      name="coptic"
+      (change)="onCopticInput()"
+    ></textarea>
+  </mat-form-field>
+  <p>To</p>
+  <mat-form-field class="example-full-width">
+    <mat-label>Arabic Text</mat-label>
+    <textarea
+      dir="rtl"
+      rows="10"
+      matInput
+      readonly
+      [(ngModel)]="arabicText"
+      name="arabic"
+    ></textarea>
+  </mat-form-field>
+</form>
