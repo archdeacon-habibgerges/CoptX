@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { tranliterate } from '../../.yalc/coptic-arabic-transliterate/dist';
+import { transliterate } from 'coptic-transliterator';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { FormsModule } from '@angular/forms';
@@ -16,6 +16,6 @@ export class TransliterateComponent {
   arabicText = '';
   value = 'clear me';
   onCopticInput() {
-    this.arabicText = tranliterate(this.copticText);
+    this.arabicText = transliterate(this.copticText);
   }
 }
