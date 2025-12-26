@@ -3843,10 +3843,10 @@ coptic-font-converter@^1.0.2:
   resolved "https://registry.yarnpkg.com/coptic-font-converter/-/coptic-font-converter-1.0.2.tgz#176c3310e37ed7a24bb04ae5a3bdccd452153473"
   integrity sha512-aJFcnypkGreAE7y6Oa0WlBmGXSQ24BPbKs5z+hk+klkTbFbHjWL5iiFhG366XX5vmdMljNKZb2pCiimw/kYhAw==
 
-coptic-transliterator@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/coptic-transliterator/-/coptic-transliterator-0.0.2.tgz#c31d9bddee3bdb33eb2eabc4d0b922b696f61f31"
-  integrity sha512-Pz14B5gwAY+lNv1prfANjbOA/8I01MN/YR2i93wSOu6/CfWIpX7EMBQJp1k1eFoH/y6cZc0tqtzG8ZS2qh+98w==
+coptic-transliterator@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/coptic-transliterator/-/coptic-transliterator-0.0.3.tgz#59fdc680fd3e2d95c521caa20db269acb9c29331"
+  integrity sha512-HmW/5c6T2cjwlOdXWz7O8xJ7rjVsUTP5c8DTgZyI+D01x5Zv6jNTBzE6dY2PthIMTk6+PPdp+/cfBN8UGbgumw==
 
 copy-anything@^2.0.1:
   version "2.0.6"
