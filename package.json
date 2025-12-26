@@ -1,6 +1,6 @@
 {
   "name": "coptx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "main.js",
   "author": "Arsany Maged",
   "description": "An application for writing Coptic text using Arabic letters.",

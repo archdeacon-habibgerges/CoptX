@@ -1,4 +1,4 @@
-<h1>Coptic Arabic Transliteration</h1>
+<h1>Coptic Arabic Transliteration v.{{ version }}</h1>
 <form class="example-form">
   <mat-form-field class="example-full-width">
     <mat-label>Coptic Text</mat-label>
@@ -6,6 +6,10 @@
       rows="10"
       matInput
       [(ngModel)]="copticText"
+      [ngStyle]="{
+        'font-family': 'CSAvaVeni-Regular',
+        'font-size': 'x-large',
+      }"
       name="coptic"
       (change)="onCopticInput()"
     ></textarea>
@@ -19,6 +23,9 @@
       matInput
       readonly
       [(ngModel)]="arabicText"
+      [ngStyle]="{
+        'font-size': 'x-large',
+      }"
       name="arabic"
     ></textarea>
   </mat-form-field>
